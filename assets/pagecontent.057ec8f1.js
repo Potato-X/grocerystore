@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vueexport-helper.2444895f.js";import{o,e as a,q as n,f as s}from"./index.ce52e5fd.js";const c={},_={class:"page"};function r(e,d){return o(),a("div",_,[n("article",null,[s(e.$slots,"default",{},void 0,!0)])])}const p=t(c,[["render",r],["__scopeId","data-v-586afc20"]]);export{p as P};
