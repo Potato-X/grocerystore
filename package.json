@@ -1,0 +1,37 @@
+{
+  "name": "vit3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.9",
+    "@types/node": "^18.7.11",
+    "axios": "^1.10.0",
+    "babel-plugin-prismjs": "^2.1.0",
+    "element-plus": "^2.2.16",
+    "highlight.js": "^11.11.1",
+    "normalize.css": "^8.0.1",
+    "prismjs": "^1.30.0",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.4",
+    "vite-plugin-markdown": "^2.2.0",
+    "vite-plugin-md": "^0.22.5",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.5",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "md-powerpack": "^1.0.3",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.0.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5"
+  }
+}
