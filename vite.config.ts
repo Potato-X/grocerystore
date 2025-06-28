@@ -5,6 +5,7 @@ import AutoImport from "unplugin-auto-import/vite";
 import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
 import Components from "unplugin-vue-components/vite";
 import { defineConfig } from "vite";
+import compression from "vite-plugin-compression";
 import Markdown from "vite-plugin-md";
 const pathResolve = (dir: string) => resolve(__dirname, dir);
 
@@ -25,6 +26,7 @@ export default defineConfig({
     Markdown({
       builders: [code(), meta(), link()],
     }),
+    compression({ algorithm: "gzip" }),
   ],
   resolve: {
     alias: {

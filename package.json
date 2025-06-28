@@ -19,6 +19,7 @@
     "prismjs": "^1.30.0",
     "unplugin-auto-import": "^0.11.2",
     "unplugin-vue-components": "^0.22.4",
+    "vite-plugin-compression": "^0.5.1",
     "vite-plugin-markdown": "^2.2.0",
     "vite-plugin-md": "^0.22.5",
     "vue": "^3.2.37",
